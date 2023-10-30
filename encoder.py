@@ -3,7 +3,7 @@ def encode(number):
     new = ""
     for char in original:
         new += str(int(char) + 3)
-    return newg
+    return new
 
 def main():
     running = True
