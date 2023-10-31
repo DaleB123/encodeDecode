@@ -1,3 +1,4 @@
+# Dale Bittner encoder edited by Jay Irby
 def encode(number):
     original = str(number)
     new = ""
