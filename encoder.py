@@ -5,6 +5,11 @@ def encode(number):
         new += str(int(char) + 3)
     return new
 
+def decode(new_pass):
+    original_pass = ''
+    for i in new_pass:
+        original_pass += str((int(i)-3))
+    return original_pass
 def main():
     running = True
     while running:
